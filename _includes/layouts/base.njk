@@ -1,0 +1,22 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+
+	<body>
+
+		<header>
+			{% include "components/nav.njk" %}
+		</header>
+
+		<main>
+			{{ layoutContent | safe }}
+		</main>
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>

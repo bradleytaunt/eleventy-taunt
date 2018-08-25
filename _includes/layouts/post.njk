@@ -1,0 +1,31 @@
+---
+layout: layouts/base-post.njk
+section: post
+---
+
+<article>
+  <p>
+    <small>
+      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
+    </small>
+  </p>
+  <h1>{{ title }}</h1>
+
+  {{ layoutContent | safe }}
+
+  {% if tags %}
+    <p>
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
+
+</article>
+
+<nav>
+  <a href="{{ '/blog/' | url }}">← Blog index</a>
+</nav>
