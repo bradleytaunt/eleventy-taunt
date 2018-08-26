@@ -12,6 +12,7 @@ collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Post' # Used in the UI
     folder: 'posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -23,7 +24,7 @@ collections:
   - name: 'pages'
     label: 'Page'
     folder: 'pages'
-    create: 'false' # Change to true to allow editors to create new pages
+    create: false # Change to true to allow editors to create new pages
     slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
