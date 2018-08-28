@@ -14,9 +14,8 @@ But that all changes moving forward. I'm going back to basics with CSS. Straight
 
 <figure>
     <picture>
-        <img data-src="/images/articles/sass-cancel_rl1fsw_c_scale,w_800.jpg"
-        alt="Sass"
-        class="lazyload">
+        <img src="http://bradleytaunt.com/images/articles/sass-cancel_rl1fsw_c_scale,w_800.jpg"
+        alt="Sass">
     </picture>
 </figure>
 
@@ -51,9 +50,11 @@ Both variables and mixins are great in small doses, but if your project has any 
 
 Basic example:
 
-<pre class="code">selector, selectTwo, .css-class {
+```css
+selector, selectTwo, .css-class {
     /// shared styling ///
-}</pre>
+}
+```
 
 ### 4. Welcome to nesting hell
 
@@ -63,15 +64,19 @@ You also run into another big no-no in my eyes: extreme selector specificity. Th
 
 Bad:
 
-<pre class="code">body #home .container .modal nav .inner-nav > ul > li > a {
+```css
+body #home .container .modal nav .inner-nav > ul > li > a {
     color: red;
-}</pre>
+}
+```
 
 Good:
 
-<pre class="code">.inner-nav a {
+```css
+.inner-nav a {
     color: red;
-}</pre>
+}
+```
 
 Don't forget the amount of work needed to override styling with such deep selector specificity. That's where you end up diving into the world of <i>!important</i> tags.
 
