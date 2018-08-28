@@ -18,4 +18,4 @@ Example:
 }
 ```
 
-What can you do with this? It's only limited by your imagination. I just personally a fan of always using as few elements as possible when working on a project.
+What can you do with this? It's only limited by your imagination, but I'm personally a fan of always using as few elements as possible when working on a project.
