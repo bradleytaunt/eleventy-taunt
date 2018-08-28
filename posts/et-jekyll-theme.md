@@ -3,6 +3,8 @@ title: ET-Jekyll theme
 summary: A visual breakdown of how to use the ET jekyll theme
 description: A visual breakdown of how to use the ET jekyll theme
 date: 2018-01-14
+tags:
+    - jekyll
 ---
 
 ET-Jekyll theme is based off of <a href="http://www.daveliepmann.com">Dave Liepmann's</a> awesome <a href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a> - which takes it's style and inspiration from the wonderful book and handout designs of <a href="https://www.edwardtufte.com/tufte/">Edward Tufte</a>.
