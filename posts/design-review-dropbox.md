@@ -11,7 +11,7 @@ Earlier last week the design team at Dropbox unveiled their new branding / desig
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/dropbox-logo_djnecj_c_scale,w_1400.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/dropbox-logo_djnecj_c_scale,w_1400.jpg"
         alt="Dropbox">
     </picture>
 </figure>
@@ -94,7 +94,7 @@ Any persons with visual impairments need not apply. This design system is not bu
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/dropbox-fonts_vthivw_c_scale,w_1122.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/dropbox-fonts_vthivw_c_scale,w_1122.jpg"
         alt="Dropbox Fonts">
     </picture>
     <span class="marginnote">Not a single one of these typeface styles is initially readable</span>
@@ -110,7 +110,7 @@ Irony at it's finest. "Our users tell us that they hate being distracted and ove
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/dropbox-logos-color_fcogaj_c_scale,w_1400.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/dropbox-logos-color_fcogaj_c_scale,w_1400.jpg"
         alt="Dropbox Color Logos">
     </picture>
     <span class="marginnote">Oh Dropbox...my eyes!</span>
@@ -120,7 +120,7 @@ After running it through a color contrast accessibility checker:
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/dropbox-contrast_plkfxb_c_scale,w_1400.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/dropbox-contrast_plkfxb_c_scale,w_1400.jpg"
         alt="Dropbox Contrast">
     </picture>
     <span class="marginnote">Multiple accessibility failures</span>
@@ -132,7 +132,7 @@ Another issue with these illustrations is their usage. Look at the image below a
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/dropbox-404_bovayg_c_scale,w_758.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/dropbox-404_bovayg_c_scale,w_758.jpg"
         alt="Dropbox Error Illustration">
     </picture>
     <span class="marginnote">What does this have to do with a 404 error page?</span>

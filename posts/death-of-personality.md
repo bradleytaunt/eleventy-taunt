@@ -11,7 +11,7 @@ On September 18, 2013 truly original product design (everything from icon and ap
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-tombstone_cfkyrq_c_scale,w_700.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-tombstone_cfkyrq_c_scale,w_700.jpg"
         alt="Flat Design Tombstone">
     </picture>
 </figure>
@@ -29,7 +29,7 @@ Do you remember Instagram's original app icon and UI? Do you remember how everyo
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-instagram_mabnop_c_scale,w_800.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-instagram_mabnop_c_scale,w_800.jpg"
         alt="Flat Design Instagram">
     </picture>
     <span class="marginnote">They completely butchered the contrast and initial readability to appease the 'flat' trend style. The personality died.</span>
@@ -41,7 +41,7 @@ I believe Apple took the concept of a 'consistent' design system across their ic
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-icons_vubivd_c_scale,w_800.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-icons_vubivd_c_scale,w_800.jpg"
         alt="iOS Icon Comparison">
     </picture>
     <span class="marginnote">Look at the depth and thought put into the original iOS icons. The "newer" icon designs look like lazy and uninspired wire-frames.</span>
@@ -53,7 +53,7 @@ The once inspiring and hierarchically consistent interface of both iOS and macOS
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-ui_d8a4lg_c_scale,w_1280.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-ui_d8a4lg_c_scale,w_1280.jpg"
         alt="iOS UI Comparison">
     </picture>
     <span class="marginnote">More ugly wire-frame skeleton design compared to it's original counterpart. Where is the call to interact with any of these elements? Where is the hierarchy?</span>
@@ -65,7 +65,7 @@ This may not have been a bad thing if it was self-contained to Apple itself. The
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-buttons_s6jjpr_c_scale,w_1400.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-buttons_s6jjpr_c_scale,w_1400.jpg"
         alt="Buttons Comparison">
     </picture>
     <span class="marginnote">Comparison of button states. Which states are more instantly recognizable?</span>
@@ -87,7 +87,7 @@ What we got in return:
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-toggles_qfre51_c_scale,w_1400.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-toggles_qfre51_c_scale,w_1400.jpg"
         alt="Toggles Comparison">
     </picture>
     <span class="marginnote">The minimal / flat toggles look like unfinished prototypes.</span>
@@ -103,7 +103,7 @@ Flexibits recently launched a new contact app for macOS called <a href="https://
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/images/articles/flat-design-cardhop_nmlvmg_c_scale,w_800.jpg"
+        <img src="http://bradleytaunt.com/static/images/articles/flat-design-cardhop_nmlvmg_c_scale,w_800.jpg"
         alt="Cardhop App Icon">
     </picture>
     <span class="marginnote">The gorgeous Cardhop app icon by David Lanham.</span>
