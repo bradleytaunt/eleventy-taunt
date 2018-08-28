@@ -1,3 +1,7 @@
 [build]
   publish = "_site"
   command = "eleventy"
+
+[[redirects]]
+  from = "https://musing-noyce-943429.netlify.com/*"
+  to = "https://bradleytaunt.com/:splat 301!"
