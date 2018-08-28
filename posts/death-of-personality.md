@@ -1,5 +1,5 @@
 ---
-title: The death of personality: the flat design system
+title: The death of personality - the flat design system
 summary: Exploring the ways in which flat design is killing artistic personality
 description: Exploring the ways in which flat design is killing artistic personality
 date: 2017-11-01
