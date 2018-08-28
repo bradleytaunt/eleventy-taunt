@@ -4,4 +4,6 @@
 
 [[redirects]]
   from = "https://musing-noyce-943429.netlify.com/*"
-  to = "https://bradleytaunt.com/:splat 301!"
+  to = "https://bradleytaunt.com/*"
+  status = 301
+  force = true
