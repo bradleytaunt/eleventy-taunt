@@ -179,7 +179,6 @@ header nav li a[data-current="current item"] {
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
 }
 
 article .post-title {
