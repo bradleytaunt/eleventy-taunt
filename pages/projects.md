@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Projects
+description: A collection of open source projects by Bradley Taunt
 tags:
   - nav
 navtitle: Projects

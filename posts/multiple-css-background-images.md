@@ -1,7 +1,6 @@
 ---
 title: Using multiple CSS background images
 date: 2018-08-28
-description: Learn how to set multiple background images on a single element
 summary: Learn how to set multiple background images on a single element
 tags:
   - tutorial

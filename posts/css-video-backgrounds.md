@@ -1,7 +1,6 @@
 ---
 title: CSS video backgrounds
 description: Thank you Safari webkit for finally implementing background video support
-summary: Thank you Safari webkit for finally implementing background video support
 date: 2018-04-16
 tags:
     - tutorial

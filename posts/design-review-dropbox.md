@@ -1,7 +1,6 @@
 ---
 title: Unsolicited design review - Dropbox
 summary: A review of the newly revamped Dropbox design system
-description: A review of the newly revamped Dropbox design system
 date: 2017-10-10
 tags:
     - opinion

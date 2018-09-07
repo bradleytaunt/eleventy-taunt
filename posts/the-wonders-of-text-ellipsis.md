@@ -1,7 +1,6 @@
 ---
 title: The wonders of text ellipsis
 summary: Breaking down when and where to use the CSS text ellipsis property
-description: Breaking down when and where to use the CSS text ellipsis property
 date: 2016-11-15
 tags:
     - css

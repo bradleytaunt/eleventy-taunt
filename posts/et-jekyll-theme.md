@@ -1,7 +1,6 @@
 ---
 title: ET-Jekyll theme
 summary: A visual breakdown of how to use the ET jekyll theme
-description: A visual breakdown of how to use the ET jekyll theme
 date: 2018-01-14
 tags:
     - jekyll

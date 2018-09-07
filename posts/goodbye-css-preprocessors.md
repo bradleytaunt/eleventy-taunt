@@ -1,7 +1,6 @@
 ---
 title: Goodbye CSS preprocessors
 summary: A deep dive into why I believe vanilla CSS is the ultimate CSS
-description: A deep dive into why I believe vanilla CSS is the ultimate CSS
 date: 2017-08-07
 tags:
     - css

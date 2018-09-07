@@ -1,7 +1,6 @@
 ---
 title: Open source typeface pairings
 summary: Beautiful typeface pairings without the heavy price tag
-description: Beautiful typeface pairings without the heavy price tag
 date: 2018-01-25
 tags:
     - typography

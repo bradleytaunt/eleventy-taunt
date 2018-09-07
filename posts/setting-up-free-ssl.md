@@ -1,7 +1,6 @@
 ---
 title: Setting up a free SSL
 summary: Learn how to implement a free SSL on your site with Cloudflare
-description: Learn how to implement a free SSL on your site with Cloudflare
 date: 2018-08-07
 tags:
     - tutorial

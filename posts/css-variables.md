@@ -1,7 +1,6 @@
 ---
 title: CSS variables
 summary: A simple tutorial to get you up and running with CSS variables in minutes
-description: A simple tutorial to get you up and running with CSS variables in minutes
 date: 2018-03-24
 tags:
   - tutorial

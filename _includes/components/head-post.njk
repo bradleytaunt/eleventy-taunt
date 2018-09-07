@@ -3,8 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
   <title>{{ title }} | {{ metadata.title }}</title>
-  {% if description %}
-    <meta name="description" content="{{ description | safe }}">
+  {% if summary %}
+    <meta name="description" content="{{ summary | safe }}">
   {% endif %}
   {% set css %}
     {% include "assets/css/inline.css" %}

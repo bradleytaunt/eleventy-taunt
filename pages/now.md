@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Now
+description: An overview of what I'm currently doing in both personal and professional areas of life
 date: 2017-01-01
 permalink: /now/index.html
 ---

@@ -1,7 +1,6 @@
 ---
 title: Chasing performance
 summary: Updating my personal website for performance, accessibility and speed
-description: Updating my personal website for performance, accessibility and speed
 date: 2017-11-20
 tags:
     - performance

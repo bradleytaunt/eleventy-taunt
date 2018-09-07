@@ -1,7 +1,6 @@
 ---
 title: Designers need thicker skin
 summary: Our community of design needs more criticism, not less
-description: Our community of design needs more criticism, not less
 date: 2017-07-10
 tags:
     - opinion

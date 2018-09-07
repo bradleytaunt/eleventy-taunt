@@ -1,7 +1,6 @@
 ---
 title: Aqua UI CSS buttons
 date: 2018-05-28T00:00:00.000Z
-description: A quick and easy tutorial on creating old macOS style buttons in pure CSS
 summary: A quick and easy tutorial on creating old macOS style buttons in pure CSS
 tags:
   - tutorial

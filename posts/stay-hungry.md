@@ -1,7 +1,6 @@
 ---
 title: Stay hungry
 summary: Always be learning something new, even if it makes you uncomfortable
-description: Always be learning something new, even if it makes you uncomfortable
 date: 2018-02-12
 tags:
     - opinion

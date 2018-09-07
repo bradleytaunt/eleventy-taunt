@@ -1,6 +1,7 @@
 ---
 layout: layouts/contact.njk
 title: Contact
+description: Contact designer and developer Bradley Taunt
 tags:
   - nav
 navtitle: Contact
