@@ -1,9 +1,7 @@
 ---
 title: Pure CSS simple dropdown plugin
 date: 2018-09-20T13:56:23.969Z
-summary: >-
-  A simple "plug & play" dropdown CSS component that can be dropped into any
-  project.
+summary: A simple dropdown CSS component that can be dropped into any project.
 tags:
   - css
   - tutorial
