@@ -13,7 +13,7 @@ But that all changes moving forward. I'm going back to basics with CSS. Straight
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/static/images/articles/sass-cancel_rl1fsw_c_scale,w_800.jpg"
+        <img src="https://bradleytaunt.com/static/images/articles/sass-cancel_rl1fsw_c_scale,w_800.jpg"
         alt="Sass">
     </picture>
 </figure>
