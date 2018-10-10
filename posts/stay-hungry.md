@@ -15,7 +15,7 @@ What about programming languages? Should I learn as many as possible or should I
 
 Want my advice? Pick something and dive head first into it. Don't worry if it's not the most popular programming language or if it's a new design system that isn't gaining much traction. Do you find it interesting? Awesome - that's what matters most. How can you teach yourself something new when you have *zero* interest in it?
 
-### Less talk, more action
+## Less talk, more action
 
 So what am I currently doing to keep my mind fresh and thinking outside of my comfort zone?
 
@@ -25,7 +25,7 @@ So what am I currently doing to keep my mind fresh and thinking outside of my co
 - Trying out Figma as my exclusive design program for the next few months
 
 <figure>
-    <img src="http://bradleytaunt.com/images/articles/fixing-brain.svg" alt="Fixing Brain">
+    <img src="https://bradleytaunt.com/static/images/articles/fixing-brain.svg" alt="Fixing Brain">
     <span class="marginnote">Programming your brain to learn something new can be frustrating and pull you out of your comfort zone. Don't let this become stressful - instead use it as inspiration to push yourself through the struggle.</span>
 </figure>
 

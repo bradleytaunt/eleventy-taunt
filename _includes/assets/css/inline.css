@@ -11,23 +11,26 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+	font-family: "Avenir", -apple-system,'SF UI Text', 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
 	background-color: #FAFAFA;
-	font-size: 110%;
+	font-size: 16px;
 	height: 100vh;
 }
 
 main {
-	max-width: 32em;
+	max-width: 34em;
 	width: 100%;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	line-height: 1.2;
+	border-bottom: 1px solid #eee;
 	font-weight: 800;
+	line-height: 1.2;
+	margin-top: 1.5em;
+	padding-bottom: .5em;
 }
 h1 {
 	font-size: 150%;
@@ -54,7 +57,11 @@ p,
 pre,
 code,
 ol {
-	line-height: 1.5;
+	line-height: 1.8;
+}
+
+p {
+	margin: 1.2em 0;
 }
 
 ol li {
@@ -182,7 +189,9 @@ article {
 }
 
 article .post-title {
+	border: 0;
 	font-size: 140%;
+	padding-bottom: 0;
 }
 
 main > section > article > * {
@@ -209,9 +218,9 @@ form label {
 input,
 textarea,
 button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
+	width: 100%;
+	padding: 1em;
+	margin-bottom: 1em;
 	font-size: 1rem;
 	font-family: "Avenir", "Avenir Next", sans-serif;
 }
