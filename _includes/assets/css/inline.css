@@ -19,9 +19,20 @@ body {
 	font-size: 16px;
 	height: 100vh;
 }
+body:after, body:before {
+	background: url('/static/images/sidebar-dots.svg');
+	bottom: 0;
+	content: '';
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 10%;
+}
 
-main {
-	max-width: 34em;
+header, main, footer {
+	max-width: 45em;
+	padding: 1em 1em 1em calc(12% + 1em);
 	width: 100%;
 }
 
@@ -103,12 +114,6 @@ table tr {
 table td,
 table th {
 	padding: 10px;
-}
-
-header,
-main,
-footer {
-	padding: 1em;
 }
 
 main {
@@ -243,7 +248,6 @@ button {
 	}
 	body {
 		display: grid;
-		padding: 1em 0 0 2em;
 	}
 	h1 {
 		font-size: 200%;

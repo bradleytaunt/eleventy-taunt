@@ -14,3 +14,5 @@ Currently, I am senior product designer at <a href="http://benbria.com">Benbria<
 
 I live in beautiful Mountain, Ontario with my wife, our son, two cats, and the family pooch. If you'd like to know what I'm currently up to - check out my <a href="/now">now page</a>.
 
+## Latest Posts
+
