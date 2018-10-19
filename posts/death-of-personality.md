@@ -10,7 +10,7 @@ On September 18, 2013 truly original product design (everything from icon and ap
 
 <figure>
     <picture>
-        <img src="http://bradleytaunt.com/static/images/articles/flat-design-tombstone_cfkyrq_c_scale,w_700.jpg"
+        <img src="https://bradleytaunt.com/static/images/articles/flat-design-tombstone_cfkyrq_c_scale,w_700.jpg"
         alt="Flat Design Tombstone">
     </picture>
 </figure>
