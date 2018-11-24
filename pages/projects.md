@@ -17,7 +17,7 @@ permalink: /projects/index.html
 </a>
 
 <a class="flex-grid__item" href="http://et-jekyll.surge.sh/">
-    <h2 class="home-title">Et-Jekyll Theme</h2>
+    <h2 class="home-title">ET-Jekyll Theme</h2>
     <p class="home-summary">ET-Jekyll theme is based off of Dave Liepmann's Tufte CSS</p>
 </a>
 
