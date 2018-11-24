@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-	line-height: 28px;
+	line-height: 29px;
 	margin: 0 0 10px;
 }
 
@@ -65,7 +65,7 @@ small {
 }
 
 ul,ol {
-	line-height: 24px;
+	line-height: 29px;
 	margin: 0 0 20px;
 }
 
@@ -280,8 +280,8 @@ button {
 		margin: 40px 0;
 	}
 
-	p {
-		line-height: 24px;
+	p, ol, ul {
+		line-height: 25px;
 	}
 
 	.p-60 {
