@@ -124,7 +124,7 @@ table th {
 	color: white;
     transform: scale(1.05);
 }
-.flex-grid__item:hover p {
+.flex-grid__item:hover p.home-summary {
 	color: white;
 }
 
@@ -144,7 +144,6 @@ table th {
 .flex-grid__item--no-hover:hover {
 	background: white;
 	box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
-	color: #2d2d2d !important;
 	transform: none;
 }
 .flex-grid__item--no-hover p {

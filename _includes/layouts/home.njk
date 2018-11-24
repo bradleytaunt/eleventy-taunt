@@ -12,7 +12,7 @@ section: home
     <a class="flex-grid__item" href="{{ post.url | url }}">
         <h2>{{ post.data.title }}</h2>
         {% if post.data.summary %}
-            <p>
+            <p class="home-summary">
                 {{ post.data.summary }}
             </p>
         {% endif %}
