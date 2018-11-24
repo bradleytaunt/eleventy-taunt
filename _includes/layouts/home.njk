@@ -2,11 +2,20 @@
 layout: layouts/base.njk
 section: home
 ---
+
+
 {{ layoutContent | safe }}
 
-{% set postslist = collections.postsLatest %}
-<ul>
+<div class="flex-grid flex-grid--wrap w-100">
+{% set postslist = collections.posts %}
     {% for post in postslist | reverse %}
-        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+    <a class="flex-grid__item" href="{{ post.url | url }}">
+        <h2>{{ post.data.title }}</h2>
+        {% if post.data.summary %}
+            <p>
+                {{ post.data.summary }}
+            </p>
+        {% endif %}
+    </a>
     {% endfor %}
-</ul>
+</div>

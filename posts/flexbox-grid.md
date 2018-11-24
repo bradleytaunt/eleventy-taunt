@@ -1,6 +1,6 @@
 ---
 title: Adaptable flexbox grid
-summary: Building a baseline grid system using flexbox
+summary: Building a baseline grid system that adjusts automatically using flexbox
 date: 2018-11-22
 tags:
   - tutorial

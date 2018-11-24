@@ -54,9 +54,9 @@ module.exports = function(eleventyConfig) {
 
   // only content in the latest `posts/` directory
   eleventyConfig.addCollection("postsLatest", function(collection) {
-    return collection.getAllSorted().slice(-7).filter(function(item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
-    });
+    return collection
+      .getFilteredByGlob('**/posts/*.md')
+      .slice(-6)
   });
 
   // Don't process folders with static assets e.g. images

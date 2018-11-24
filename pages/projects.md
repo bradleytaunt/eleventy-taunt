@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Projects
+title: Side Projects
 description: A collection of open source projects by Bradley Taunt
 tags:
   - nav
@@ -9,12 +9,34 @@ date: 2017-01-01
 permalink: /projects/index.html
 ---
 
-Feel free to take a look at some of my open source side projects:
+<div class="flex-grid flex-grid--wrap w-100">
 
-- <a href="http://benched.site">Benched</a>
-- <a href="http://logo.gives">Logo Gives</a>
-- <a href="https://github.com/bradleytaunt/ET-Jekyll">ET-Jekyll Theme</a>
-- <a href="https://pepperoni-theme.tumblr.com">Pepperoni Tumblr Theme</a>
-- <a href="https://github.com/bradleytaunt/cssgraphs">CSS Graphs</a>
-- <a href="https://github.com/bradleytaunt/normform">Normform</a>
-- <a href="https://dribbble.com/dailycolors">Daily Colors</a>
+<a class="flex-grid__item" href="#">
+    <h2>Benched</h2>
+</a>
+
+<a class="flex-grid__item" href="#">
+    <h2>Et-Jekyll Theme</h2>
+</a>
+
+<a class="flex-grid__item" href="#">
+    <h2>Normform</h2>
+</a>
+
+<a class="flex-grid__item" href="#">
+    <h2>Logo Gives</h2>
+</a>
+
+<a class="flex-grid__item" href="#">
+    <h2>Pepperoni Tumblr Theme</h2>
+</a>
+
+<a class="flex-grid__item" href="#">
+    <h2>CSS Graphs</h2>
+</a>
+
+<a class="flex-grid__item" href="#">
+    <h2>Daily Colors</h2>
+</a>
+
+</div>

@@ -3,29 +3,35 @@ layout: layouts/base-post.njk
 section: post
 ---
 
-<article>
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
-    </small>
-  </p>
-  <h1>{{ title }}</h1>
+<h1>{{ title }}</h1>
 
-  {{ layoutContent | safe }}
+<div class="flex-grid">
 
-  {% if tags %}
+  <div class="flex-grid__item flex-grid__item--no-hover flex-grid__item--full-width">
+
+    {{ layoutContent | safe }}
+
+    <hr/>
+
     <p>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
+      <small>
+        <time datetime="{{ date | machineDate }}">Published: {{ date | readableDate }}</time>
+      </small>
     </p>
-  {% endif %}
 
-</article>
+    {% if tags %}
+      <p>
+      {% for tag in tags %}
+        {%- if tag != "post" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+      </p>
+    {% endif %}
+  </div>
+</div>
 
-<nav>
-  <a href="{{ '/posts/' | url }}">← Blog index</a>
-</nav>
+<div class="flex-grid t-center">
+  <a class="flex-grid__item" href="{{ '/' | url }}"><h2 class="m-0">← Back to all posts</h2></a>
+</div>

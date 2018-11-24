@@ -7,13 +7,11 @@
 
 	<body>
 
-		<header>
+		<div class="flex-grid flex-grid--sb flex-break p-60 m-40 w-100">
 			{% include "components/nav.njk" %}
-		</header>
+		</div>
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+		{{ layoutContent | safe }}
 
 		{% include "components/footer.njk" %}
 
