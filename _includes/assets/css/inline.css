@@ -41,12 +41,21 @@ a,a:visited {
 	color: var(--link-color);
 }
 
+img {
+	width: 100%;
+}
+
 hr {
 	background: rgba(0,0,0,0.1);
 	border: 0;
 	height: 1px;
 	margin: 20px 0;
 	width: 100%;
+}
+
+.marginnote {
+	font-size: 80%;
+	font-style: italic;
 }
 
 small {
@@ -135,13 +144,11 @@ table th {
 .flex-grid__item--no-hover:hover {
 	background: white;
 	box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
+	color: #2d2d2d !important;
 	transform: none;
 }
 .flex-grid__item--no-hover p {
 	margin: 0 0 20px 0;
-}
-.flex-grid__item--no-hover:hover p {
-	color: #2d2d2d;
 }
 
 /* Widths */
