@@ -121,9 +121,9 @@ table th {
 .flex-grid__item:hover {
 	background: var(--link-color);
 	box-shadow: 0 40px 60px 0 rgba(0,0,0,0.2);
-	color: white;
     transform: scale(1.05);
 }
+.flex-grid__item:hover h2.home-title,
 .flex-grid__item:hover p.home-summary {
 	color: white;
 }
