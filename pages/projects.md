@@ -31,9 +31,14 @@ permalink: /projects/index.html
     <p class="home-summary">A growing collection of minimal open source logos</p>
 </a>
 
+<a class="flex-grid__item" href="http://remotejobs.design/">
+    <h2 class="home-title">Remote Design Jobs</h2>
+    <p class="home-summary">A weekly newsletter of manually curated remote design jobs</p>
+</a>
+
 <a class="flex-grid__item" href="https://pepperoni-theme.tumblr.com/">
     <h2 class="home-title">Pepperoni Tumblr Theme</h2>
-    <p class="home-summary">A minimal, modern and highly customizable theme built with a focus on content</p>
+    <p class="home-summary">Minimal tumblr theme built with a focus on content</p>
 </a>
 
 <a class="flex-grid__item" href="https://github.com/bradleytaunt/cssgraphs">
