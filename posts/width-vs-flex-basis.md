@@ -59,5 +59,4 @@ You will also notice the `flex` property set to `1 1 auto`. This is important if
 
 Feel free to play around with a slightly more stylized version of both options below:
 
-<p data-height="477" data-theme-id="0" data-slug-hash="JevaYQ" data-default-tab="css,result" data-user="bradleytaunt" data-pen-title="Width or flex-basis" class="codepen">See the Pen <a href="https://codepen.io/bradleytaunt/pen/JevaYQ/">Width or flex-basis</a> by Bradley Taunt (<a href="https://codepen.io/bradleytaunt">@bradleytaunt</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<a href="https://codepen.io/bradleytaunt/pen/JevaYQ">CodePen Demo: Width or flex-basis</a>
