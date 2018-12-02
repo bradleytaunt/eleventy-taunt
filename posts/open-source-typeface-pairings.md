@@ -4,7 +4,6 @@ summary: Beautiful typeface pairings without the heavy price tag
 date: 2018-01-25
 tags:
     - typography
-    - design
 ---
 
 I always love finding new typeface pairings to use across my personal and client projects, but I find many suggested pairings come with a hefty price tag (rightly so - premium typefaces are normally always worth their cost).

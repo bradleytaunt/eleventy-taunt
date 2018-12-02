@@ -9,5 +9,13 @@ tags:
   - nav
 ---
 
-<h1 class="c-dark">Front-end designer & developer</h1>
+<h1><span>Frontend</span> <span>Dev-signer</span></h1>
+
+Hi, my name is <i>Bradley Taunt</i>.
+
+I'm a designer/developer hybrid working in the Great White North. Passionate about modular CSS, accessibility and performance.
+
+
+
+
 

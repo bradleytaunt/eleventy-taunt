@@ -3,8 +3,7 @@ title: The wonders of text ellipsis
 summary: Breaking down when and where to use the CSS text ellipsis property
 date: 2016-11-15
 tags:
-    - css
-    - tutorial
+    - CSS
 ---
 
 A common issue when working with constrained UI elements is text overflowing outside of it's parent or breaking into addition lines (thus breaking the layout).

@@ -3,7 +3,16 @@ layout: layouts/base.njk
 section: blog
 permalink: /blog/index.html
 ---
-<h1>{{ title }}</h1>
+<div class="title-container brand-bg">
+
+  {% include "components/nav.njk" %}
+
+  <div class="title-inner">
+    <h1>{{ title }}</h1>
+    <p class="sans-serif">{{ description }}</p>
+  </div>
+
+</div>
 
 {{ layoutContent | safe }}
 

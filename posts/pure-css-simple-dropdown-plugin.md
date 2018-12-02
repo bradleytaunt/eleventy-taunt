@@ -3,8 +3,7 @@ title: Pure CSS simple dropdown plugin
 date: 2018-09-20T13:56:23.969Z
 summary: A simple dropdown CSS component that can be dropped into any project.
 tags:
-  - css
-  - tutorial
+  - CSS
 ---
 I find myself blowing away default browser `select` styling and implementing my own custom dropdowns far more often than I'd like. So, I recently created a very simple and clean component using just pure CSS.
 

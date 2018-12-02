@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj).toFormat("LLLL dd, yyyy");
   });
 
   // Date formatting (machine readable)
@@ -56,12 +56,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("postsLatest", function(collection) {
     return collection
       .getFilteredByGlob('**/posts/*.md')
-      .slice(-6)
+      .slice(-3)
   });
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/images");
-  eleventyConfig.addPassthroughCopy("admin");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

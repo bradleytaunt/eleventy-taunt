@@ -3,15 +3,31 @@
 
     {% include "components/head-post.njk" %}
 
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
-
     <body>
 
-        <div class="flex-grid flex-grid--sb flex-break p-60 m-40 w-100">
-            {% include "components/nav.njk" %}
-        </div>
-
         {{ layoutContent | safe }}
+
+        <div class="recent-container">
+            <div class="recent-inner">
+                <h2>Recent posts</h2>
+                {% set postslist = collections.postsLatest %}
+                    {% for post in postslist | reverse %}
+                    <div>
+                        <p class="sans-serif">
+                            {{ post.data.date | readableDate }} —
+                            {% for tag in post.data.tags %}
+                                {%- if tag != "post" -%}
+                                    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                                    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                                {%- endif -%}
+                            {% endfor %}
+                        </p>
+                        <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+                    </div>
+                    {% endfor %}
+                <h4><a href="/posts">Read all posts 🡒</a></h4>
+            </div>
+        </div>
 
         {% include "components/footer.njk" %}
 

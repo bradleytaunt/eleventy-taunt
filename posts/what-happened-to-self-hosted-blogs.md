@@ -4,7 +4,6 @@ date: 2018-10-18
 summary: Platforms like Medium have killed an interesting part of the internet
 tags:
   - opinion
-  - soapbox
 ---
 
 I remember a time on the internet<sup>1</sup> when everyone and their grandmother was running a personal blog. And I mean *personal* - not hosted on some side platform or a tacked-on addition to the rest of their website.

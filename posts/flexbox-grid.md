@@ -3,8 +3,7 @@ title: Adaptable flexbox grid
 summary: Building a baseline grid system that adjusts automatically using flexbox
 date: 2018-11-22
 tags:
-  - tutorial
-  - css
+  - CSS
 ---
 
 You can use `flexbox` for many tricky layout "hacks" and implementing a grid layout is no different.

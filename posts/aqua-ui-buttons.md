@@ -3,8 +3,7 @@ title: Aqua UI CSS buttons
 date: 2018-05-28T00:00:00.000Z
 summary: A quick and easy tutorial on creating old macOS style buttons in pure CSS
 tags:
-  - tutorial
-  - css
+  - CSS
 ---
 
 Though it may feel like nostalgia, the old OS design for Mac was arguably better than the current iteration (as of this writing - High Sierra). I recently designed a quick Dribbble shot showcasing how the older operating system used to have so much more character and depth.

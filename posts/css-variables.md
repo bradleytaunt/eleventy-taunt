@@ -3,8 +3,7 @@ title: CSS variables
 summary: A simple tutorial to get you up and running with CSS variables in minutes
 date: 2018-03-24
 tags:
-  - tutorial
-  - css
+  - CSS
 ---
 
 The CSS language is becoming even more awesome and powerful everyday. In this quick article I'd like to focus specifically on the "new" CSS variable function that you can start using in your projects *right now*.

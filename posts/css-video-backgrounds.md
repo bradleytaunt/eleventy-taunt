@@ -3,8 +3,7 @@ title: CSS video backgrounds
 summary: Thank you Safari webkit for finally implementing background video support
 date: 2018-04-16
 tags:
-    - tutorial
-    - css
+    - CSS
 ---
 
 With the release of Safari 11.1 on macOS and Safari on iOS 11.3, developers now have the ability to support background videos (mp4 support only - at the time of this article) with pure CSS.

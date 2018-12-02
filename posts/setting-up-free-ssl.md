@@ -3,7 +3,7 @@ title: Setting up a free SSL
 summary: Learn how to implement a free SSL on your site with Cloudflare
 date: 2018-08-07
 tags:
-    - tutorial
+    - SSL
 ---
 
 I never had to worry about SSL certificates when I originally hosted my blog through Github Pages, but since switching over to Surge.sh I lost my ability to utilize `https` protocol.

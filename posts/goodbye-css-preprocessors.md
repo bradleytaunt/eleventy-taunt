@@ -3,8 +3,7 @@ title: Goodbye CSS preprocessors
 summary: A deep dive into why I believe vanilla CSS is the ultimate CSS
 date: 2017-08-07
 tags:
-    - css
-    - tutorial
+    - CSS
 ---
 
 I've been using preprocessors across all my side projects since they first popped onto the scene. Sass, Stylus, LESS — you name the CSS preprocessor and I've most likely used it because CSS preprocessors are awesome.

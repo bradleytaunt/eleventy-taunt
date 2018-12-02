@@ -4,7 +4,6 @@ summary: Updating my personal website for performance, accessibility and speed
 date: 2017-11-20
 tags:
     - performance
-    - accessibility
 ---
 
 So I decided to participate in Smashing Mag's <a href="https://www.smashingmagazine.com/2017/10/front-end-performance-challenge/">Front End Performance Challenge</a>, not only for the potential of winning the prize but to further experiment with optimizing my site. (Web performance is a passion of mine)
@@ -146,7 +145,7 @@ Webfonts
 
 I'm not using any webfonts but instead defaulting to the user's OS System Fonts. I love custom typefaces but performance takes just too much of a hit on my personal site to bother with them.
 
-```html
+```css
 body {
 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif,"Sans Serif",Icons;
 }

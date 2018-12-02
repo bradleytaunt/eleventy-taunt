@@ -3,19 +3,61 @@ layout: layouts/base.njk
 section: home
 ---
 
+<div class="home-container brand-bg">
+    <div class="home-inner">
+        {{ layoutContent | safe }}
+        <nav class="sans-serif">
+            <ul>
+                <li><a href="https://dribbble.com/hustlepizza">Dribbble</a></li>
+                <li><a href="https://github.com/bradleytaunt">Github</a></li>
+                <li><a href="https://codepen.io/bradleytaunt/">CodePen</a></li>
+                <li><a href="https://twitter.com/bradtaunt">Twitter</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 
-{{ layoutContent | safe }}
+<div class="recent-container">
+    <div class="recent-inner">
+        <h2>Recent posts</h2>
+        {% set postslist = collections.postsLatest %}
+            {% for post in postslist | reverse %}
+            <div>
+                <p class="sans-serif tags">
+                    {{ post.data.date | readableDate }} —
+                    {% for tag in post.data.tags %}
+                        {%- if tag != "post" -%}
+                            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                            <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                        {%- endif -%}
+                    {% endfor %}
+                </p>
+                <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+            </div>
+            {% endfor %}
+        <h4><a href="/posts">Read all posts 🡒</a></h4>
+    </div>
+</div>
 
-<div class="flex-grid flex-grid--wrap w-100">
-{% set postslist = collections.posts %}
-    {% for post in postslist | reverse %}
-    <a class="flex-grid__item" href="{{ post.url | url }}">
-        <h2 class="home-title">{{ post.data.title }}</h2>
-        {% if post.data.summary %}
-            <p class="home-summary">
-                {{ post.data.summary }}
-            </p>
-        {% endif %}
-    </a>
-    {% endfor %}
+<div class="recent-container brand-bg">
+    <div class="recent-inner">
+        <h2>Recent side projects</h2>
+        <div>
+            <h3><a href="https://benched.site/">Benched</a></h3>
+            <p class="project-info sans-serif">Create a Dribbble portfolio for free</p>
+        </div>
+        <div>
+            <h3><a href="http://normform.surge.sh/">Normform</a></h3>
+            <p class="project-info sans-serif">A tiny CSS plugin to make your web forms beautiful again</p>
+        </div>
+        <div>
+            <h3><a href="http://et-jekyll.surge.sh/">ET-Jekyll Theme</a></h3>
+            <p class="project-info sans-serif">A Jekyll theme based off Dave Liepmann's Tufte CSS</p>
+        </div>
+        <div>
+            <h3><a href="http://remotejobs.design/">Remote Design Jobs</a></h3>
+            <p class="project-info sans-serif last-project">A weekly newsletter of manually curated remote design jobs</p>
+        </div>
+        <h4><a href="/projects">View all projects 🡒</a></h4>
+    </div>
 </div>
