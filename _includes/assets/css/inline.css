@@ -26,6 +26,10 @@ iframe {
     max-width: 100%;
 }
 
+.cp_embed_wrapper {
+    max-width: 100% !important;
+}
+
 code {
 	background: var(--brand-color);
 }
