@@ -23,6 +23,7 @@ img {
 
 iframe {
 	margin: 1.45rem 0;
+    max-width: 100%;
 }
 
 code {
