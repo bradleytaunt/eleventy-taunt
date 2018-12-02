@@ -12,7 +12,7 @@ The CSS language is becoming even more awesome and powerful everyday. In this qu
 
 Let's just jump right in - this is how you create variables in vanilla CSS:
 
-```
+```css
 :root {
     --base-color: #e0e0e0;
     --text-color: #111;
@@ -25,7 +25,7 @@ As for the variables themselves, you declare that they are variables using the `
 
 Now let's use those variables:
 
-```
+```css
 .header {
     border: 1px solid var(--base-color);
 }
