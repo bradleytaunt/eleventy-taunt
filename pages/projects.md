@@ -18,6 +18,10 @@ permalink: /projects/index.html
     <p class="project-info sans-serif">A tiny CSS plugin to make your web forms beautiful again</p>
 </div>
 <div>
+    <h3><a href="http://stacks11ty.surge.sh/">Stacks 11ty Theme</a></h3>
+    <p class="project-info sans-serif">An open source theme for the Eleventy site generator</p>
+</div>
+<div>
     <h3><a href="http://et-jekyll.surge.sh/">ET-Jekyll Theme</a></h3>
     <p class="project-info sans-serif">A Jekyll theme based off Dave Liepmann's Tufte CSS</p>
 </div>
@@ -34,7 +38,7 @@ permalink: /projects/index.html
     <p class="project-info sans-serif">Simple tumblr theme with a focus on content</p>
 </div>
 <div>
-    <h3><a href="https://github.com/bradleytaunt/cssgraphs">CSS Graph</a></h3>
+    <h3><a href="http://cssgraphs.surge.sh/">CSS Graph</a></h3>
     <p class="project-info sans-serif">Pure CSS graphs with graceful mobile fallback</p>
 </div>
 <div>
