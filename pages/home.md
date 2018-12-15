@@ -9,11 +9,11 @@ tags:
   - nav
 ---
 
-<h1><span>Frontend</span> <span>Dev-signer</span></h1>
+<h1>Bradley Taunt</h1>
 
-Hi, my name is <i>Bradley Taunt</i>.
+I'm <i>Bradley Taunt</i>, a designer/developer hybrid working in the Great White North. Currently, I work at Benbria as a senior product designer in Ottawa. My passion lies in building modular CSS, with a focus on accessibility and web performance.
 
-I'm a designer/developer hybrid working in the Great White North. Passionate about modular CSS, accessibility and performance.
+In my spare time I also run: <a href="http://www.vanillacss.com/">Vanilla CSS</a> (WIP) and <a href="http://remotejobs.design/">Remote Jobs for Designers</a>
 
 
 

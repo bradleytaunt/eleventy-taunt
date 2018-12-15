@@ -7,24 +7,18 @@
 
         {{ layoutContent | safe }}
 
-        <div class="recent-container">
-            <div class="recent-inner">
-                <h2>Recent posts</h2>
-                {% set postslist = collections.postsLatest %}
-                    {% for post in postslist | reverse %}
-                    <div>
-                        <p class="sans-serif">
-                            {{ post.data.date | readableDate }} —
-                            {% for tag in post.data.tags %}
-                                {%- if tag != "post" -%}
-                                    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                                    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                                {%- endif -%}
-                            {% endfor %}
-                        </p>
-                        <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-                    </div>
-                    {% endfor %}
+        <div class="container">
+            <div class="inner-container">
+                <h2 class="no-margin">Recent posts</h2>
+                <div class="col-container">
+                    {% set postslist = collections.postsLatest %}
+                        {% for post in postslist | reverse %}
+                        <a href="{{ post.url | url }}" class="col-item double-width">
+                            <p><small>{{ post.data.date | readableDate }}</small></p>
+                            <h3>{{ post.data.title }}</h3>
+                        </a>
+                        {% endfor %}
+                </div>
                 <h4><a href="/posts">Read all posts &#x2192;</a></h4>
             </div>
         </div>

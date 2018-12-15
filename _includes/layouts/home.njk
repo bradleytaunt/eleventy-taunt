@@ -3,10 +3,41 @@ layout: layouts/base.njk
 section: home
 ---
 
-<div class="home-container brand-bg">
-    <div class="home-inner">
+<div class="container">
+    <div class="inner-container">
         {{ layoutContent | safe }}
-        <nav class="sans-serif">
+    </div>
+</div>
+
+<div class="container">
+    <div class="inner-container">
+        <h2 class="no-margin">Open source projects</h2>
+        <p>As a huge advocate for open source software, I try to give back to the community by releasing my own open source projects into the wild.</p>
+        {% include "components/my-projects.njk" %}
+    </div>
+</div>
+
+<div class="container">
+    <div class="inner-container">
+        <h2 class="no-margin">Recent posts</h2>
+        <p>Writing about my personal experiences in design, reviewing design concepts and ideas, hacking around with new web technologies, and sharing my knowledge as best I can with others.</p>
+        <div class="col-container">
+            {% set postslist = collections.postsLatest %}
+                {% for post in postslist | reverse %}
+                <a href="{{ post.url | url }}" class="col-item double-width">
+                    <p><small>{{ post.data.date | readableDate }}</small></p>
+                    <h3>{{ post.data.title }}</h3>
+                </a>
+                {% endfor %}
+        </div>
+        <h4><a href="/posts">Read all posts &#x2192;</a></h4>
+    </div>
+</div>
+
+<div class="container">
+    <div class="inner-container">
+        <h2 class="no-margin">Contact</h2>
+        <nav>
             <ul>
                 <li><a href="https://dribbble.com/hustlepizza">Dribbble</a></li>
                 <li><a href="https://github.com/bradleytaunt">Github</a></li>
@@ -14,54 +45,5 @@ section: home
                 <li><a href="https://twitter.com/bradtaunt">Twitter</a></li>
             </ul>
         </nav>
-    </div>
-</div>
-
-<div class="recent-container">
-    <div class="recent-inner">
-        <h2>Recent posts</h2>
-        {% set postslist = collections.postsLatest %}
-            {% for post in postslist | reverse %}
-            <div>
-                <p class="sans-serif tags">
-                    {{ post.data.date | readableDate }} —
-                    {% for tag in post.data.tags %}
-                        {%- if tag != "post" -%}
-                            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                            <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                        {%- endif -%}
-                    {% endfor %}
-                </p>
-                <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-            </div>
-            {% endfor %}
-        <h4><a href="/posts">Read all posts &#x2192;</a></h4>
-    </div>
-</div>
-
-<div class="recent-container brand-bg">
-    <div class="recent-inner">
-        <h2>Recent side projects</h2>
-        <div>
-            <h3><a href="https://benched.site/">Benched</a></h3>
-            <p class="project-info sans-serif">Create a Dribbble portfolio for free</p>
-        </div>
-        <div>
-            <h3><a href="http://normform.surge.sh/">Normform</a></h3>
-            <p class="project-info sans-serif">A tiny CSS plugin to make your web forms beautiful again</p>
-        </div>
-        <div>
-            <h3><a href="http://stacks11ty.surge.sh/">Stacks 11ty Theme</a></h3>
-            <p class="project-info sans-serif">An open source theme for the Eleventy site generator</p>
-        </div>
-        <div>
-            <h3><a href="http://data11ty.surge.sh/">Data 11ty Theme</a></h3>
-            <p class="project-info sans-serif">An open source theme focused on data visualization for the Eleventy</p>
-        </div>
-        <div>
-            <h3><a href="http://et-jekyll.surge.sh/">ET-Jekyll Theme</a></h3>
-            <p class="project-info sans-serif last-project">A Jekyll theme based off Dave Liepmann's Tufte CSS</p>
-        </div>
-        <h4><a href="/projects">View all projects &#x2192;</a></h4>
     </div>
 </div>

@@ -3,18 +3,20 @@ layout: layouts/base.njk
 section: blog
 permalink: /blog/index.html
 ---
-<div class="title-container brand-bg">
+<div class="container">
 
-  {% include "components/nav.njk" %}
+    <div class="inner-container" style="padding-bottom:0;padding-top:0;">
+        {% include "components/nav.njk" %}
+    </div>
 
-  <div class="title-inner">
+  <div class="inner-container">
     <h1>{{ title }}</h1>
     <p class="sans-serif">{{ description }}</p>
   </div>
 
-</div>
+  {{ layoutContent | safe }}
 
-{{ layoutContent | safe }}
+</div>
 
 {% set postslist = collections.posts %}
 {% include "components/postslist.njk" %}

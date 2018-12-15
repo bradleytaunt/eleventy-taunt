@@ -56,7 +56,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("postsLatest", function(collection) {
     return collection
       .getFilteredByGlob('**/posts/*.md')
-      .slice(-3)
+      .slice(-4)
   });
 
   // Don't process folders with static assets e.g. images

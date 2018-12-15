@@ -3,28 +3,24 @@ layout: layouts/base-post.njk
 section: post
 ---
 
-<div class="title-container brand-bg">
+<div class="container">
 
-  {% include "components/nav.njk" %}
+    <div class="inner-container" style="padding-bottom: 0;padding-top: 0;">
+      {% include "components/nav.njk" %}
+    </div>
 
-  <div class="title-inner">
-    <p class="sans-serif tags">
-      {{ date | readableDate }} —
-      {% for tag in tags %}
-        {%- if tag != "post" -%}
-          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-        {%- endif -%}
-      {% endfor %}
-    </p>
-    <h1>{{ title }}</h1>
-  </div>
+    <div class="inner-container">
 
-</div>
-
-<div class="article-container">
-
-    <div class="article-inner">
+      <h1>{{ title }}</h1>
+      <p><small>
+        {{ date | readableDate }} —
+        {% for tag in tags %}
+          {%- if tag != "post" -%}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+            <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+          {%- endif -%}
+        {% endfor %}
+      </small></p>
 
       {{ layoutContent | safe }}
 

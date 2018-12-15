@@ -2,17 +2,16 @@
 layout: layouts/base.njk
 section: page
 ---
-<div class="title-container brand-bg">
-    {% include "components/nav.njk" %}
+<div class="container">
 
-    <div class="title-inner">
-        <h1>{{ title }}</h1>
-        <p class="sans-serif">{{ description }}</p>
+    <div class="inner-container" style="padding-bottom:0;padding-top:0;">
+        {% include "components/nav.njk" %}
     </div>
-</div>
 
-<div class="recent-container">
-    <div class="recent-inner">
+    <div class="inner-container">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+        {% include "components/my-projects.njk" %}
         {{ layoutContent | safe }}
     </div>
 </div>
