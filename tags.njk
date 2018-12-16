@@ -12,13 +12,16 @@ permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 ---
 
-<div class="title-container brand-bg">
+<div class="container">
 
-    {% include "components/nav.njk" %}
+    <div class="inner-container" style="padding-bottom:0;padding-top:0;">
+        {% include "components/nav.njk" %}
+    </div>
 
-    <div class="title-inner">
+    <div class="inner-container">
         <h1>Tagged “{{ tag }}”</h1>
     </div>
+
 </div>
 
 {% set postslist = collections[ tag ] %}
