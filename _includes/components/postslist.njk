@@ -1,11 +1,10 @@
 <div class="inner-container">
     <div class="col-container" style="padding-top:0;">
-        {% set postslist = collections.posts %}
-            {% for post in postslist | reverse %}
-            <a href="{{ post.url | url }}" class="col-item double-width">
-                <p><small>{{ post.data.date | readableDate }}</small></p>
-                <h3>{{ post.data.title }}</h3>
-            </a>
-            {% endfor %}
+        {% for post in postslist | reverse %}
+        <a href="{{ post.url | url }}" class="col-item double-width">
+            <p><small>{{ post.data.date | readableDate }}</small></p>
+            <h3>{{ post.data.title }}</h3>
+        </a>
+        {% endfor %}
     </div>
 </div>

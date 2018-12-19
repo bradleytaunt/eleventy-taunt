@@ -1,7 +1,7 @@
 ---
 title: Using parent selectors in CSS
 date: 2018-12-19
-summary: Let's take a simpler look at how to implement the jsincss-parent-selector plugin
+summary: "Taking a simpler look at how to implement the jsincss-parent-selector plugin"
 permalink: /posts/using-parent-selectors/
 tags:
   - CSS
