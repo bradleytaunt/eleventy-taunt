@@ -9,13 +9,34 @@
   box-sizing: border-box;
 }
 
+/* Fonts
+**********************************************************************************************************************/
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(/static/fonts/SpaceGrotesk-Regular.woff) format('woff2'),
+         url(/static/fonts/SpaceGrotesk-Regular.woff2) format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(/static/fonts/SpaceGrotesk-Bold.woff) format('woff2'),
+         url(/static/fonts/SpaceGrotesk-Bold.woff2) format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
 /* Defaults
 *********************************************************************************************************************/
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font: 16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+	font: 15px/1.6 "Space Grotesk", Helvetica,Arial,sans-serif;
 }
 
 img {
