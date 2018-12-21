@@ -13,8 +13,8 @@
 **********************************************************************************************************************/
 @font-face {
     font-family: 'Space Grotesk';
-    src: url(/static/fonts/SpaceGrotesk-Regular.woff) format('woff2'),
-         url(/static/fonts/SpaceGrotesk-Regular.woff2) format('woff');
+    src: url(/static/fonts/SpaceGrotesk-Regular.woff2) format('woff2'),
+         url(/static/fonts/SpaceGrotesk-Regular.woff) format('woff');
     font-display: swap;
     font-style: normal;
     font-weight: normal;
@@ -22,8 +22,8 @@
 }
 @font-face {
     font-family: 'Space Grotesk';
-    src: url(/static/fonts/SpaceGrotesk-Bold.woff) format('woff2'),
-         url(/static/fonts/SpaceGrotesk-Bold.woff2) format('woff');
+    src: url(/static/fonts/SpaceGrotesk-Bold.woff2) format('woff2'),
+         url(/static/fonts/SpaceGrotesk-Bold.woff) format('woff');
     font-display: swap;
     font-style: normal;
     font-weight: bold;
