@@ -1,5 +1,9 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en" class="fonts-loaded" dir="ltr">
+<!--#else -->
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en" dir="ltr">
+<!--#endif -->
 
     {% include "components/head-post.njk" %}
 
@@ -26,5 +30,14 @@
         {% include "components/footer.njk" %}
 
     </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.1.0/fontfaceobserver.js"></script>
+    <script>
+        // Load webfonts in
+        var font = new FontFaceObserver( "Space Grotesk" )
+        font.load().then(function () {
+            document.documentElement.className += " fonts-loaded";
+        });
+    </script>
 
 </html>
