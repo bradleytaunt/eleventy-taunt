@@ -15,7 +15,7 @@
     font-family: 'Space Grotesk';
     src: url(/static/fonts/SpaceGrotesk-Regular.woff2) format('woff2'),
          url(/static/fonts/SpaceGrotesk-Regular.woff) format('woff');
-    font-display: swap;
+    font-display: block;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -24,7 +24,7 @@
     font-family: 'Space Grotesk';
     src: url(/static/fonts/SpaceGrotesk-Bold.woff2) format('woff2'),
          url(/static/fonts/SpaceGrotesk-Bold.woff) format('woff');
-    font-display: swap;
+    font-display: block;
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -36,10 +36,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font: 15px/1.6 "Helvetica", Arial, sans-serif;
-}
-.fonts-loaded body {
-    font: 15px/1.6 "Space Grotesk", Helvetica, Arial, sans-serif;
+	font: 15px/1.6 "Space Grotesk", Helvetica, Arial, sans-serif;
 }
 
 img {
