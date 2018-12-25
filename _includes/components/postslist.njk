@@ -1,4 +1,4 @@
-<div class="inner-container">
+<div class="inner-container" aria-label="list of posts">
     <div class="col-container" style="padding-top:0;">
         {% for post in postslist | reverse %}
         <a href="{{ post.url | url }}" class="col-item double-width">

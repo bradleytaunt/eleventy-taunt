@@ -1,8 +1,10 @@
 :root {
 	--white: white;
 	--brand-color: rgb(235, 237, 242);
-    --link-color: #0096ff;
-	--text-color: #2d2d2d;
+    --link-color: #1a0dab;
+    --visited-link-color: #609;
+    --text-color: #2d2d2d;
+    --highlight-color: #ffcd60;
 }
 
 *, *:before, *:after {
@@ -116,12 +118,21 @@ p {
 }
 
 a,a:visited {
-	color: var(--link-color);
 	font-weight: bold;
-	text-decoration: none;
+    text-decoration: underline;
+    transition: .1s ease all;
+}
+a {
+    color: var(--link-color);
+}
+a:visited {
+    color: var(--visited-link-color);
 }
 a:hover {
-	text-decoration: underline;
+    background: var(--highlight-color);
+    box-shadow: 0 0 0 4px var(--highlight-color);
+    color: var(--text-color);
+	text-decoration: none;
 }
 
 /* Containers
@@ -150,14 +161,15 @@ a:hover {
 }
 
 .col-item, .col-item:visited {
-    background: white;
-    border: 1px solid #eee;
-    border-radius: 10px;
+    background: #f0f4f5;
+    border: 1px solid #f0f4f5;
+    box-shadow: 0 4px 0 0 #D8DDE0;
     color: var(--text-color);
     cursor: pointer;
     margin: 0 20px 20px 0;
     padding: 25px;
-    transition: .3s ease all;
+    text-decoration: none;
+    transition: .1s ease all;
     width: calc(300px - 20px);
 }
 .col-item h3 {
@@ -169,11 +181,15 @@ a:hover {
     margin: 0;
 }
 .col-item:hover {
-    box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+    background: white;
+    box-shadow: 0 0 0 4px var(--highlight-color);
     text-decoration: none;
 }
 .col-item:hover h3 {
     color: var(--link-color);
+}
+.col-item:visited:hover h3 {
+    color: var(--visited-link-color);
 }
 .col-item.double-width {
     width: calc(620px - 40px);
@@ -190,124 +206,163 @@ a:hover {
 }
 
 /**
- * GHColors theme by Avi Aryan (http://aviaryan.in)
- * Inspired by Github syntax coloring
+ * a11y-dark theme for JavaScript, CSS, and HTML
+ * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
+ * @author ericwbailey
  */
 
-code[class*="language-"],
-pre[class*="language-"] {
-    color: #393A34;
-    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-    direction: ltr;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    font-size: 0.95em;
-    line-height: 1.4em;
-
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-}
-
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-    background: #b3d4fc;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    background: #b3d4fc;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-    padding: 1rem;
-    margin: 2rem 0;
-    overflow: auto;
-    border: 1px solid #dddddd;
-    background-color: white;
-    max-width: 720px;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-    padding: .2em;
-    padding-top: 1px; padding-bottom: 1px;
-    background: #f8f8f8;
-    border: 1px solid #dddddd;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-    color: #999988; font-style: italic;
-}
-
-.token.namespace {
-    opacity: .7;
-}
-
-.token.string,
-.token.attr-value {
-    color: #e3116c;
-}
-.token.punctuation,
-.token.operator {
-    color: #393A34; /* no highlight */
-}
-
-.token.entity,
-.token.url,
-.token.symbol,
-.token.number,
-.token.boolean,
-.token.variable,
-.token.constant,
-.token.property,
-.token.regex,
-.token.inserted {
-    color: #36acaa;
-}
-
-.token.atrule,
-.token.keyword,
-.token.attr-name,
-.language-autohotkey .token.selector {
-    color: #00a4db;
-}
-
-.token.function,
-.token.deleted,
-.language-autohotkey .token.tag {
-    color: #9a050f;
-}
-
-.token.tag,
-.token.selector,
-.language-autohotkey .token.keyword {
-    color: #00009f;
-}
-
-.token.important,
-.token.function,
-.token.bold {
-    font-weight: bold;
-}
-
-.token.italic {
-    font-style: italic;
-}
+ code[class*="language-"],
+ pre[class*="language-"] {
+     color: #f8f8f2;
+     background: none;
+     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+     max-width: 600px;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     word-wrap: normal;
+     line-height: 1.5;
+     -moz-tab-size: 4;
+     -o-tab-size: 4;
+     tab-size: 4;
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     overflow: auto;
+     border-radius: 0.3em;
+ }
+ 
+ :not(pre) > code[class*="language-"],
+ pre[class*="language-"] {
+     background: #2b2b2b;
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: 0.1em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.prolog,
+ .token.doctype,
+ .token.cdata {
+     color: #d4d0ab;
+ }
+ 
+ .token.punctuation {
+     color: #fefefe;
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.constant,
+ .token.symbol,
+ .token.deleted {
+     color: #ffa07a;
+ }
+ 
+ .token.boolean,
+ .token.number {
+     color: #00e0e0;
+ }
+ 
+ .token.selector,
+ .token.attr-name,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted {
+     color: #abe338;
+ }
+ 
+ .token.operator,
+ .token.entity,
+ .token.url,
+ .language-css .token.string,
+ .style .token.string,
+ .token.variable {
+     color: #00e0e0;
+ }
+ 
+ .token.atrule,
+ .token.attr-value,
+ .token.function {
+     color: #ffd700;
+ }
+ 
+ .token.keyword {
+     color: #00e0e0;
+ }
+ 
+ .token.regex,
+ .token.important {
+     color: #ffd700;
+ }
+ 
+ .token.important,
+ .token.bold {
+     font-weight: bold;
+ }
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ @media screen and (-ms-high-contrast: active) {
+     code[class*="language-"],
+     pre[class*="language-"] {
+         color: windowText;
+         background: window;
+     }
+ 
+     :not(pre) > code[class*="language-"],
+     pre[class*="language-"] {
+         background: window;
+     }
+ 
+     .token.important {
+         background: highlight;
+         color: window;
+         font-weight: normal;
+     }
+ 
+     .token.atrule,
+     .token.attr-value,
+     .token.function,
+     .token.keyword,
+     .token.operator,
+     .token.selector {
+         font-weight: bold;
+     }
+ 
+     .token.attr-value,
+     .token.comment,
+     .token.doctype,
+     .token.function,
+     .token.keyword,
+     .token.operator,
+     .token.property,
+     .token.string {
+         color: highlight;
+     }
+ 
+     .token.attr-value,
+     .token.url {
+         font-weight: normal;
+     }
+ }
 
 

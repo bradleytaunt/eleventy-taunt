@@ -3,13 +3,13 @@ layout: layouts/base.njk
 section: home
 ---
 
-<div class="container">
+<div class="container" aria-label="introduction">
     <div class="inner-container">
         {{ layoutContent | safe }}
     </div>
 </div>
 
-<div class="container">
+<div class="container" aria-label="projects">
     <div class="inner-container">
         <h2 class="no-margin">Open source projects</h2>
         <p>As a huge advocate for open source software, I try to give back to the community by releasing my own open source projects into the wild.</p>
@@ -17,7 +17,7 @@ section: home
     </div>
 </div>
 
-<div class="container">
+<div class="container" aria-label="recent posts">
     <div class="inner-container">
         <h2 class="no-margin">Recent posts</h2>
         <p>Writing about my personal experiences in design, reviewing design concepts and ideas, hacking around with new web technologies, and sharing my knowledge as best I can with others.</p>
@@ -30,14 +30,14 @@ section: home
                 </a>
                 {% endfor %}
         </div>
-        <h4><a href="/posts">Read all posts &#x2192;</a></h4>
+        <h3><a href="/posts">Read all posts &#x2192;</a></h3>
     </div>
 </div>
 
-<div class="container">
+<div class="container" aria-label="contact links">
     <div class="inner-container">
         <h2 class="no-margin">Contact</h2>
-        <nav>
+        <nav aria-label="social navigation">
             <ul>
                 <li><a href="https://dribbble.com/hustlepizza">Dribbble</a></li>
                 <li><a href="https://github.com/bradleytaunt">Github</a></li>
