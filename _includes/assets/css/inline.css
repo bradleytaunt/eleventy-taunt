@@ -205,6 +205,36 @@ a:hover {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --white: white;
+        --brand-color: rgb(235, 237, 242);
+        --link-color: #ffcd60;
+        --visited-link-color: #ffcd60;
+        --text-color: white;
+        --highlight-color: #ffcd60;
+    }
+    body {
+        background: #2d2d2d;
+    }
+    a:hover {
+        color: #2d2d2d;
+    }
+    .col-item {
+        background: rgba(255,255,255,0.05);
+    }
+    .col-item:hover {
+        background: rgba(255,255,255,0.08);
+        color: var(--text-color);
+    }
+    code {
+        color: black;
+    }
+    pre[class*="language-"] {
+        border: 1px solid black;
+    }
+}
+
 /**
  * a11y-dark theme for JavaScript, CSS, and HTML
  * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
