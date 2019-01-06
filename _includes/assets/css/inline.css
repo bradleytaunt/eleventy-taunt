@@ -38,7 +38,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font: 15px/1.6 "Space Grotesk", Helvetica, Arial, sans-serif;
+	font: 18px/1.7 "Space Grotesk", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -196,6 +196,9 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        font: 16px/1.6 "Space Grotesk", Helvetica, Arial, sans-serif;
+    }
     .inner-container {
         padding: 40px 20px;
     }
