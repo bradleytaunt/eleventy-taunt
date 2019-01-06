@@ -14,7 +14,7 @@ Now it's completely understandable why designers and teams alike shrug off the c
 - Everything is written in `insert pre-processor here` - so it's cleaner/compiled anyway
 - It's *technically* DRY
 
-I personally believe these are all weak excuses that don't justify the poor experience future maintainers of your code will face. *You should always write your code with idea that someone completely new to the project will have to maintain it*.
+I personally believe these are all weak excuses that don't justify the poor experience future maintainers of your code will face. *You should always write your code with the idea someone completely new to the project will have to maintain it*.
 
 Let's look at an average example of poor nesting that I've seen out in the wild:
 
