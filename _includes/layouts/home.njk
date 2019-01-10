@@ -12,25 +12,8 @@ section: home
 <div class="container" aria-label="projects">
     <div class="inner-container">
         <h2 class="no-margin">Open source projects</h2>
-        <p>As a huge advocate for open source software, I try to give back to the community by releasing my own open source projects into the wild.</p>
+        <p>As a huge advocate for open source software, I try to give back to the community by releasing my own open source projects.</p>
         {% include "components/my-projects.njk" %}
-    </div>
-</div>
-
-<div class="container" aria-label="recent posts">
-    <div class="inner-container">
-        <h2 class="no-margin">Recent posts</h2>
-        <p>Writing about my personal experiences in design, reviewing design concepts and ideas, hacking around with new web technologies, and sharing my knowledge as best I can with others.</p>
-        <div class="col-container">
-            {% set postslist = collections.postsLatest %}
-                {% for post in postslist | reverse %}
-                <a href="{{ post.url | url }}" class="col-item double-width">
-                    <p><small>{{ post.data.date | readableDate }}</small></p>
-                    <h3>{{ post.data.title }}</h3>
-                </a>
-                {% endfor %}
-        </div>
-        <h3><a href="/posts">Read all posts &#x2192;</a></h3>
     </div>
 </div>
 
