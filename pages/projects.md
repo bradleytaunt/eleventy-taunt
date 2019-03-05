@@ -1,6 +1,6 @@
 ---
 layout: layouts/projects.njk
-title: Open source side projects
+title: Projects
 description: A growing collection of my current side projects
 tags:
   - nav

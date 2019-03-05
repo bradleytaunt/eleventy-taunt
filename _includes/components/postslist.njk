@@ -1,5 +1,7 @@
 <div class="inner-container" aria-label="list of posts">
-    <div class="col-container" style="padding-top:0;">
+    <h2 class="no-margin">Recent Posts</h2>
+    <p>This is a collection of random blog posts and articles about web design, CSS and trying to rule the world.</p>
+    <div class="col-container">
         {% for post in postslist | reverse %}
         <a href="{{ post.url | url }}" class="col-item double-width">
             <p><small>{{ post.data.date | readableDate }}</small></p>

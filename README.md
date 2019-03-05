@@ -1,3 +1,5 @@
-# Personal Eleventy Theme
+# Eleventy Taunt Theme
 
-Based off of LekoArts gatsbyjs theme (<a href="https://gatsby-starter-prismic.netlify.com">Gatsby Starter: Prismic</a>) but "ported" for Eleventy.
+Custom 11ty portfolio theme for designer & developer blogs.
+
+A live demo can be found here: <a href="https://taunt11ty.netlify.com/">taunt11ty.netlify.com/</a>

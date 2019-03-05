@@ -9,6 +9,9 @@ section: home
     </div>
 </div>
 
+{% set postslist = collections.posts %}
+{% include "components/postslist.njk" %}
+
 <div class="container" aria-label="projects">
     <div class="inner-container">
         <h2 class="no-margin">Open source projects</h2>
