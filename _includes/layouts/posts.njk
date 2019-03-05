@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+section: page
+---
+<div class="container">
+
+    <div class="inner-container" style="padding-bottom:0;padding-top:0;">
+        {% include "components/nav.njk" %}
+    </div>
+
+    <div class="inner-container">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+
+        {% set postslist = collections.posts %}
+        <div class="col-container">
+            {% for post in postslist | reverse %}
+            <a href="{{ post.url | url }}" class="col-item double-width">
+                <p><small>{{ post.data.date | readableDate }}</small></p>
+                <h3>{{ post.data.title }}</h3>
+            </a>
+            {% endfor %}
+        </div>
+
+        {{ layoutContent | safe }}
+    </div>
+</div>
